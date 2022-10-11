@@ -1,7 +1,9 @@
 const Sink = (props) => {
   return ( 
     <>
-      <h1>This is the Sink Component</h1>
+      <div>
+        <p>This is the Sink Component</p>
+      </div>
     </>
   );
 }

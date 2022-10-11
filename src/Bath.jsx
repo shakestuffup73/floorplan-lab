@@ -1,7 +1,9 @@
 const Bath = (props) => {
   return ( 
     <>
-      <h1> This is the Bath component </h1>
+    <div>
+      <p> This is the Bath component </p>
+    </div>
     </>
   );
 }
