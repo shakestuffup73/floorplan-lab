@@ -2,7 +2,8 @@ const Bath = (props) => {
   return ( 
     <>
     <div>
-      <p> This is the Bath component </p>
+      <p> This is the {props.bathSize}</p>
+      <p> This is the {props.bathFloor}</p>
     </div>
     </>
   );

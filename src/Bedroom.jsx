@@ -2,7 +2,7 @@ const Bedroom = (props) => {
   return ( 
     <>
     <div>
-      <p>This is the Bedroom component</p>
+      <p>This is Bedroom {props.bedNum}</p>
     </div>
     </>
   );
