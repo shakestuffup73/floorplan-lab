@@ -1,7 +1,7 @@
 const Oven = (props) => {
   return ( 
     <>
-      <div>
+      <div class="stacked" id="oven">
         <p> This is the Oven component </p>
       </div>
     </>

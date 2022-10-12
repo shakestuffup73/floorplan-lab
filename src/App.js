@@ -7,13 +7,15 @@ import LivingRoom from './LivingRoom';
 function App() {
   return (
     <>
-      <Bath bathSize={'Half-Bath'} bathFloor={'First Floor Bath'}/>
-      <Bath bathSize={'Full-Bath'} bathFloor={'Second Floor Bath'}/>
-      <Kitchen />
+    <body>
       <Bedroom bedNum={1}/>
-      <Bedroom bedNum={2}/>
-      <Bedroom bedNum={3}/>
+      <Bath bathSize={'Full-Bath'} bathFloor={'First Floor Bath 1'}/>
       <LivingRoom />
+      <Kitchen />
+      <Bedroom bedNum={2}/>
+      <Bath bathSize={'Half-Bath'} bathFloor={'First Floor Bath 2'}/>
+      <Bedroom bedNum={3}/>
+    </body>
     </>
   );
 }
