@@ -1,4 +1,4 @@
-const Oven = (props) => {
+const Oven = () => {
   return ( 
     <>
       <div class="stacked" id="oven">
