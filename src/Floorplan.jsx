@@ -7,11 +7,11 @@ const Floorplan = () => {
   return ( 
     <>
       <Bedroom bedNum={1}/>
-      <Bath bathSize={'Full-Bath'} bathFloor={'First Floor Bath 1'}/>
+      <Bath bathSize={'Full-Bath'} bath={'Bath 1'}/>
       <LivingRoom />
       <Kitchen />
       <Bedroom bedNum={2}/>
-      <Bath bathSize={'Half-Bath'} bathFloor={'First Floor Bath 2'}/>
+      <Bath bathSize={'Half-Bath'} bath={'Bath 2'}/>
       <Bedroom bedNum={3}/>
     </>
   );

@@ -5,7 +5,7 @@ const Kitchen = (props) => {
   return ( 
     <>
     <div id="kitchen">
-      <p>This is the Kitchen component</p>
+      <p>Kitchen</p>
       <Oven />
       <Sink />
     </div>

@@ -2,7 +2,7 @@ const LivingRoom = (props) => {
   return ( 
     <>
     <div id="livingRoom">
-      <p>This is the LivingRoom component</p>
+      <p>Living Room</p>
     </div>
     </>
   );

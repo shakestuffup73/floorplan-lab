@@ -2,7 +2,7 @@ const Sink = (props) => {
   return ( 
     <>
       <div class="stacked" id="sink">
-        <p>This is the Sink Component</p>
+        <p>Sink</p>
       </div>
     </>
   );
