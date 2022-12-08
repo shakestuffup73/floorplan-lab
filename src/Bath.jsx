@@ -1,9 +1,8 @@
 const Bath = (props) => {
   return ( 
     <>
-    <div className="bathroom" id={`bath-${props.bathSize}`}>
+    <div className="bathroom" id={`${props.bathSize}`}>
       <p>{props.bathSize}</p>
-      <p>{props.bath}</p>
     </div>
     </>
   );
