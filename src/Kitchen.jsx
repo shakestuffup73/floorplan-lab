@@ -6,8 +6,8 @@ const Kitchen = (props) => {
     <>
     <div id="kitchen">
       <p>Kitchen</p>
-      <Oven />
-      <Sink />
+      <Oven id="oven" />
+      <Sink id="sink" />
     </div>
     </>
   );

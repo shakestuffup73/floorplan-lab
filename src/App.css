@@ -17,3 +17,40 @@ body > div {
   height: 80vh;
 }
 
+#bed1 {
+
+}
+
+#bed2 {
+
+}
+
+#bed3{
+
+}
+
+#halfbath {
+
+}
+
+#fullbath {
+
+}
+
+#livroom {
+
+
+}
+
+#kitchen {
+  display: flex;
+  flex-direction: column;
+}
+
+#oven {
+  width: 50%;
+}
+
+#sink {
+  width: 50%;
+}
