@@ -1,28 +1,38 @@
 body {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  min-height: 50vh;
-  font-size: small;
-  margin: 0;
+  text-align: center;
+  min-height: 100vh;
+  width: 50%;
+  font-size: x-small;
+  color: whitesmoke;
+  margin-left: 25%;
+}
+
+#top {
+  display: flex;
+  flex-direction: row;
+  height: 60%;
+  width: 100%;
 }
 
 #bottom {
-  width: 100%;
   display: flex;
   flex-direction: row;
+  width: 100%;
+  height: 40%;
   align-self: flex-end;
-}
-
-#livroom {
-  height: 25vh;
-  align-self: flex-start;
-  width: 50%;
-  background-color: tan;
 }
 
 #living {
   height: 25vh;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  background-color: tan;
 }
 
 #left {
@@ -31,32 +41,64 @@ body {
   align-self: flex-start;
   align-items: flex-start;
   height: 25vh;
-  width: 40%;
+  width: 60%;
 }
 
 #right {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 30%;
 }
 
 #bed-1 {
-  height: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 18vh;
   width: 100%;
   align-self: flex-start;
   background-color: teal;
 }
 
+#bed-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  background-color: teal;
+}
+
+#bed-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: teal;
+  width: 40%;
+}
+
 #Full-Bath {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 35%;
   background-color: slategray;
   width: 100%;
+}
+
+#Half-Bath {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+  background-color: pink;
+  height: 18vh;
 }
 
 #kitchen {
   display: flex;
   flex-direction: column;
   align-self: flex-start;
+  justify-content: center;
   height: 22vh;
   width: 100%;
   background-color: lightcoral;
@@ -67,15 +109,17 @@ body {
   flex-direction: row;
   width: 100%;
   height: 3vh;
-  text-align: center;
 }
 
 #oven {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: lightsalmon;
   width: 50%;
   align-self: flex-start;
 }
-
 
 #sink {
   background-color: lightseagreen;
